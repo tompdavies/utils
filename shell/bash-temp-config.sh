@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #===============================================================================
 # Make your bash env feel like home, when you're on an unfamiliar machine
+# curl -sS https://raw.githubusercontent.com/tompdavies/utils/main/shell/bash-temp-config.sh | bash
+# curl -sSL b.link/bashconfig | bash
 #===============================================================================
 
 force_colour_off=false

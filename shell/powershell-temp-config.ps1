@@ -1,5 +1,7 @@
 #===============================================================================
 # Make your PowerShell env feel like home, when you're on an unfamiliar machine
+# Invoke-WebRequest https://raw.githubusercontent.com/tompdavies/utils/main/shell/powershell-temp-config.ps1 | Select-Object -Expand Content | powershell -NoLogo -Command -
+# curl b.link/powershellconfig | Select-Object -Expand Content | powershell -NoLogo -Command -
 #===============================================================================
 
 $tempsrcfile="$env:TEMP\tempsrcfile.ps1"
