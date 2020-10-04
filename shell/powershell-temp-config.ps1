@@ -28,6 +28,7 @@ echo "set-psreadlineoption -bellstyle none" >> $tempsrcfile
 echo "set-alias -name grep -value findstr" >> $tempsrcfile
 echo "set-alias -name ll -value get-childitem" >> $tempsrcfile
 echo "set-alias -name sha256sum -value get-filehash" >> $tempsrcfile
+echo "set-alias -name open -value start" >> $tempsrcfile
 
 echo "function uptime {(Get-Date) - (Get-CimInstance Win32_operatingSystem).lastbootuptime}" >> $tempsrcfile
 
